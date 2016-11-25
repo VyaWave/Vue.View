@@ -1,4 +1,4 @@
-# VueJS
+# view  === Vue 
 
 
 ##Vue.js：轻量高效的前端组件化方案
