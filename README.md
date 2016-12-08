@@ -243,3 +243,4 @@ Vue.js GitHub仓库：https://github.com/yyx990803/vue
 Webpack官方网站: http://webpack.github.io
 
 vue-loader单页组件示例：https://github.com/vuejs/vue-loader-example
+好好把vue写好
