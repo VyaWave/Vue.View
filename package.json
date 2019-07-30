@@ -1,0 +1,39 @@
+{
+  "name": "Vue.View",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RVya/Vue.View.git",
+  "author": "weiya <weiya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "package:dev": "webpack --config build/webpack.config.dev.js",
+    "prod": "webpack --config build/webpack.config.prod.js",
+    "package": "npm run package:prod && npm publish && npm run build"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.1.0",
+    "docsify": "^4.9.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
